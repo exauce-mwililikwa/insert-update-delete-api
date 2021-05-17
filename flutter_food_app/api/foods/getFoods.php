@@ -8,6 +8,6 @@ $queryResult=mysqli_query($conn,$queryFood);
 while ($row=mysqli_fetch_assoc($queryResult)) {
 //$result=$row;sksksxnnxsnsnssnns
 array_push($result,$row);
-}
+}sjsj
 echo json_encode($result);snsnsnns
 ?>//ksjsjsnnsnns
