@@ -9,5 +9,5 @@ while ($row=mysqli_fetch_assoc($queryResult)) {
 //$result=$row;sksksxnnxsnsnssnns
 array_push($result,$row);
 }
-echo json_encode($result);snsn
+echo json_encode($result);snsnsnns
 ?>//ksjsjsnnsnns
