@@ -10,4 +10,4 @@ while ($row=mysqli_fetch_assoc($queryResult)) {
 array_push($result,$row);
 }
 echo json_encode($result);
-?>
+?>//ksjsj
