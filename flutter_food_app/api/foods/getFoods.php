@@ -6,7 +6,7 @@ $result=array();
 $queryFood="select * from foods";
 $queryResult=mysqli_query($conn,$queryFood);
 while ($row=mysqli_fetch_assoc($queryResult)) {
-//$result=$row;s]sncsnsnnxnsxncbxxbsmcsnssssnscncnsscnsssssxnxnxmsssssssnssssssssssssssssxnssssnnsxssnsnsnsxsnsnsnnssnsssnssnsnnsxnsxsss
+//$result=$row;s]sncsnsnnxsnsxncbxxbsmcsnssssnscncnsscnsssssxnxnxmsssssssnssssssssssssssssxnssssnnsxssnsnsnsxsnsnsnnssnsssnssnsnnsxnsxsss
 array_push($result,$row);
 }s
 echo json_encode($result);
